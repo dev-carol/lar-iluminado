@@ -1,0 +1,34 @@
+.banner-home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.box-1,
+.box-2 {
+  padding: 40px;
+
+}
+
+.title-home {
+  font-size: 60px;
+}
+
+.text-impact {
+  margin-bottom: 20px;
+}
+
+.description-home{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
