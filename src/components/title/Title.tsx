@@ -3,7 +3,7 @@ import { theme } from '../../styles/theme';
 
 interface TitleProps {
   font?: string;
-  fontWeight?: string;
+  fontWeight?: keyof typeof theme.fontWeights | 'normal';
   color?: keyof typeof theme.colors;
   children: React.ReactNode;
   className?: string;

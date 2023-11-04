@@ -5,6 +5,8 @@ export const theme = {
    goldLight: "#C9AB81",
    gold: "#AD8E00",
    grey: "#5c5654",
+   greyLight: "#acacac",
+   greyLight2: "#f6f6f6",
 
   },
   fonts: {

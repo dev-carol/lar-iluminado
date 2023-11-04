@@ -6,9 +6,9 @@ interface ButtonProps {
   onClick?: () => void;
   children: React.ReactNode;
   className?: string;
-  background?: keyof typeof theme.colors; // Prop para escolher a cor de fundo
-  textColor?: keyof typeof theme.colors; // Prop para escolher a cor de texto
-  fontWeight?: keyof typeof theme.fontWeights | 'normal'; // Aceitar valores do objeto theme.fontWeights
+  background?: keyof typeof theme.colors; 
+  textColor?: keyof typeof theme.colors;
+  fontWeight?: keyof typeof theme.fontWeights | 'normal'; 
 }
 
 const StyledButton = styled.button<ButtonProps>`

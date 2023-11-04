@@ -7,10 +7,12 @@ import "./styles.css";
 
 const Home = () => {
   return (
-    <div className="banner-home" style={{ background: theme.colors.black }}>
+    <div className="banner-home"style={{
+      background: `linear-gradient(to left, rgba(50, 40, 30, 9), #1c1b19)`
+    }}>
       <div className="container">
         <div className="box-1">
-          <Title fontWeight="bold" color={"white"} className='title-home'>
+          <Title fontWeight={'bold'} color={"white"} className='title-home'>
             Lar Iluminado 
           </Title>
           <p className='text-impact' style={{ color: theme.colors.grey }}>
@@ -19,10 +21,10 @@ const Home = () => {
           <p className="description-home"style={{ color: theme.colors.grey }}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae eligendi ipsum quasi quos repellendus fuga, eaque totam et sunt delectus nobis, corrupti consequatur magni veritatis earum ea perspiciatis, enim a!
           </p>
-         <ButtonPrimary>Faça um amigo</ButtonPrimary>
+         <ButtonPrimary className='button-home'>Faça um amigo</ButtonPrimary>
         </div>
         <div className="box-2">
-          <img src={pet} />
+          <img src={pet} className='img-pet-home'/>
         </div>
       </div>
     </div>

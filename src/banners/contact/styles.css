@@ -1,0 +1,13 @@
+.banner-contact {
+  height: 100%;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-contact {
+  height: 20;
+}

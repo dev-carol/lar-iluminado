@@ -4,6 +4,7 @@ import GlobalStyles from "../styles/global";
 
 import { theme } from "../styles/theme";
 import Banners from "../banners";
+import Contact from "../banners/contact/contact";
 
 const MainLayout = () => {
   return (
@@ -13,7 +14,7 @@ const MainLayout = () => {
       <main>
         <Banners />
       </main>
-      <footer></footer>
+      <footer><Contact/></footer>
     </ThemeProvider>
   );
 };

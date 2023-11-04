@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  
 }
 
 .container {
@@ -12,12 +14,12 @@
   align-items: center;
   max-width: 1200px;
   padding: 0 20px;
+
 }
 
 .box-1,
 .box-2 {
-  padding: 40px;
-
+  padding: 10px;
 }
 
 .title-home {
@@ -31,4 +33,12 @@
 .description-home{
   margin-bottom: 20px;
   font-size: 18px;
+}
+
+.button-home{
+    font-size: 18px;
+}
+
+.img-pet-home{
+   height: 720px;
 }
