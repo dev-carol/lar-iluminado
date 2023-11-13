@@ -12,7 +12,7 @@ interface ButtonProps {
 }
 
 const StyledButton = styled.button<ButtonProps>`
-  background-color: ${(props) => props.background ? theme.colors[props.background] : theme.colors.goldLight};
+  background-color: ${(props) => props.background ? theme.colors[props.background] : theme.colors.grey};
   color: ${(props) => props.textColor ? theme.colors[props.textColor] : theme.colors.white};
   font-family: ${theme.fonts.crimsonText};
   font-weight: ${(props) => {
@@ -29,7 +29,7 @@ const StyledButton = styled.button<ButtonProps>`
   transition: background-color 0.2s;
 
   &:hover {
-    background-color: ${theme.colors.grey};
+    background-color: ${theme.colors.goldLight};
   }
 `;
 

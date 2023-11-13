@@ -1,19 +1,18 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CardContainer = styled.div`
   width: 100%;
   max-width: 300px;
-  height: 400px;
-  background: #f5f5f5;
+  height: 350px;
+  background: #f6f6f6;
   position: relative;
   padding: 1.8rem;
   transition: 0.5s ease-out;
   overflow: visible;
   margin: 1rem;
-
+  border: 1px solid #C9AB81;
   &:hover {
-    border-color: #008bf8;
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.50);
   }
 `;
 
@@ -32,7 +31,7 @@ export const CardButton = styled.button`
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  background-color: #C9AB81;
+  background-color: #c9ab81;
   color: #1c1b19;
   font-size: 1rem;
   padding: 0.5rem 1rem;
