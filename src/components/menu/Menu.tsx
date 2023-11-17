@@ -1,5 +1,4 @@
 import { useState } from "react";
-import LightButton from "../light/Light";
 import { MenuButton, MenuContainer, MenuItem } from "./styles";
 
 const Menu = () => {
@@ -13,7 +12,6 @@ const Menu = () => {
     <>
       <MenuButton onClick={toggleMenu}>☰</MenuButton>
       <MenuContainer open={open}>
-      <LightButton  />
         <MenuItem href="#about-section" onClick={toggleMenu}>
           Sobre
         </MenuItem>
