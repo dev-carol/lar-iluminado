@@ -4,11 +4,12 @@ import dogAndCat from "../../assets/dogAndCat.png";
 import "./styles.css";
 const About = () => {
   return (
-    <div className="banner-about" style={{ background: theme.colors.white }}>
+    <article  id="about-section" className="banner-about" style={{ background: theme.colors.white }}>
       <div className="container-about">
-        <section>
-          <img src={dogAndCat}/>
-        </section>
+
+        <figure>
+          <img src={dogAndCat} alt="Imagem de um cachorro e um gato" className="dogAndCatImag" />
+        </figure>
         <section>
           <Title fontWeight="normal" color={"greyLight"} className="title-about">
             Sobre o abrigo "Lar Iluminado"
@@ -28,7 +29,7 @@ const About = () => {
           </p>
         </section>
       </div>
-    </div>
+    </article>
   );
 };
 

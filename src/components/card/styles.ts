@@ -14,6 +14,11 @@ export const CardContainer = styled.div`
   &:hover {
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.50);
   }
+
+  @media (max-width: 768px) {
+    max-width: 250px;
+  }
+
 `;
 
 export const CardDetails = styled.div`
@@ -44,11 +49,12 @@ export const CardButton = styled.button`
     transform: translate(-50%, 50);
     opacity: 1;
   }
+
 `;
 
 export const ImgBody = styled.img`
-  width: 200px;
-  height: 250px;
+  width: 100%;
+  height: auto
 `;
 
 export const TextTitle = styled.p`

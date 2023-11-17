@@ -36,6 +36,7 @@ const iconsData = [
 const Help = () => {
   return (
     <div
+      id="help-section"
       className="banner-help"
       style={{ background: theme.colors.greyLight2 }}
     >
@@ -52,18 +53,10 @@ const Help = () => {
             ))}
           </IconsContainer>
         </section>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            marginTop: "50px",
-          }}
-        >
-         <Link to="/donate-pet">
+        <div className="container-btn-help">
+          <Link to="/donate-pet" target="_blank">
             <ButtonPrimary>Quero doar um pet</ButtonPrimary>
           </Link>
-         
         </div>
       </div>
     </div>

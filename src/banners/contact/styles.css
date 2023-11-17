@@ -11,3 +11,52 @@
 .img-contact {
   height: 20;
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-contact {
+    height: 200px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .img-contact {
+    height: 250px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .img-contact {
+    height: 250px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .img-contact {
+    height: 250px;
+  }
+  
+}

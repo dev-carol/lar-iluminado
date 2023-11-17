@@ -22,7 +22,7 @@ const iconsData = [
 
 const Contact = () => {
   return (
-    <div className="banner-contact" style={{ background: theme.colors.white }}>
+    <div  id="contact-section" className="banner-contact" style={{ background: theme.colors.white }}>
       <div className="container-contact">
         <section>
           <img src={patinhas} className="img-contact" />
@@ -31,7 +31,7 @@ const Contact = () => {
           <Title fontWeight="bold" color={"greyLight"} className="title-pet">
             Ficaríamos iluminados em receber o seu contato!
           </Title>
-          <IconsContainer>
+          <IconsContainer className="icons-container">
             {iconsData.map((data, index) => (
               <Icons key={index} iconName={data.iconName} name={data.name} />
             ))}

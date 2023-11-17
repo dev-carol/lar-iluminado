@@ -4,8 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 .container {
@@ -14,7 +12,6 @@
   align-items: center;
   max-width: 1200px;
   padding: 0 20px;
-
 }
 
 .box-1,
@@ -30,15 +27,227 @@
   margin-bottom: 20px;
 }
 
-.description-home{
+.description-home {
   margin-bottom: 20px;
   font-size: 18px;
 }
 
-.button-home{
-    font-size: 18px;
+.button-home {
+  font-size: 18px;
 }
 
-.img-pet-home{
-   height: 720px;
+.img-pet-home {
+  height: 670px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .banner-home {
+    flex-direction: column;
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+
+    max-width: 0px;
+    padding: 0px;
+  }
+
+  .img-pet-home {
+    height: 300px;
+  }
+
+  .title-home {
+    font-size: 60px;
+  }
+
+  .text-impact {
+    margin-bottom: 10px;
+  }
+
+  .description-home {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+  .banner-home {
+    flex-direction: column;
+    height: auto;
+  }
+  .container {
+    flex-direction: column;
+
+    max-width: 0px;
+    padding: 0px;
+  }
+
+  .img-pet-home {
+    height: 300px;
+  }
+
+  .title-home {
+    font-size: 60px;
+  }
+
+  .text-impact {
+    margin-bottom: 10px;
+  }
+
+  .description-home {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner-home {
+    flex-direction: column;
+    height: 100%;
+  }
+  .container {
+    flex-direction: column;
+
+    max-width: 500px;
+    padding: 0px;
+  }
+
+  .img-pet-home {
+    height: 400px;
+  }
+
+  .title-home {
+    font-size: 60px;
+  }
+
+  .text-impact {
+    margin-bottom: 20px;
+  }
+
+  .description-home {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-home {
+    flex-direction: row;
+  }
+  .container {
+    flex-direction: row;
+    max-width: 700px;
+  }
+
+  .img-pet-home {
+    height: 400px;
+  }
+
+  .text-impact {
+    margin-bottom: 20px;
+  }
+
+  .description-home {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner-home {
+    flex-direction: row;
+  }
+  .container {
+    flex-direction: row;
+    max-width: 800px;
+  }
+
+  .img-pet-home {
+    height: 500px;
+  }
+
+  .text-impact {
+    margin-bottom: 20px;
+  }
+
+  .description-home {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .banner-home {
+    flex-direction: row;
+  }
+  .container {
+    flex-direction: row;
+    max-width: 80%;
+  }
+
+  .img-pet-home {
+    height: 650px;
+  }
+
+  .text-impact {
+    margin-bottom: 20px;
+  }
+
+  .description-home {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .banner-home {
+    flex-direction: row;
+  }
+  .container {
+    flex-direction: row;
+    max-width: 80%;
+  }
+
+  .img-pet-home {
+    height: 800px;
+  }
+
+  .text-impact {
+    margin-bottom: 20px;
+  }
+
+  .description-home {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .banner-home {
+    flex-direction: row;
+  }
+  .container {
+    flex-direction: row;
+    max-width: 80%;
+  }
+
+  .title-home {
+    font-size: 90px;
+  }
+  .img-pet-home {
+    height: 1000px;
+  }
+
+  .text-impact {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .description-home {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .button-home {
+    font-size: 30px;
+  }
 }

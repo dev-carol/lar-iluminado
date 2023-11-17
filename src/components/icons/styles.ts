@@ -6,6 +6,7 @@ export const IconsContainer = styled.section`
   justify-content: space-between;
   max-width: 800px;
   margin: 0 auto;
+
 `;
 
 export const CheckboxWrapper = styled.div`
@@ -16,6 +17,12 @@ export const CheckboxWrapper = styled.div`
   margin: 20px; 
   width: 20%; 
   box-sizing: border-box; 
+
+  @media (max-width: 768px) {
+    width: 100%; 
+    justify-content: space-between;
+  }
+  
 `;
 
 export const CheckboxLabel = styled.span`

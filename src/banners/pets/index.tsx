@@ -20,7 +20,7 @@ const Pets = () => {
   ];
 
   return (
-    <div className="banner-pet" style={{ background: theme.colors.greyLight2 }}>
+    <div  id="pets-section"className="banner-pet" style={{ background: theme.colors.greyLight2 }}>
       <div className="container-pet">
         <section>
           <Title
@@ -31,7 +31,7 @@ const Pets = () => {
             Os nossos amigos que estão à procura de um lar iluminado
           </Title>
         </section>
-        <section style={{ display: "flex" }}>
+        <section className="container-cards-pets">
           {cardsData.map((card) => (
             <Card
               key={card.id}

@@ -1,16 +1,37 @@
+import { useState } from "react";
 import LightButton from "../light/Light";
-import { MenuContainer, MenuItem } from "./styles";
+import { MenuButton, MenuContainer, MenuItem } from "./styles";
 
 const Menu = () => {
-    return (
-      <MenuContainer>
-         <LightButton />
-        <MenuItem href="#">Sobre</MenuItem>
-        <MenuItem href="#">Nossos Pets</MenuItem>
-        <MenuItem href="#">Quero Ajudar</MenuItem>
-        <MenuItem href="#">Contato</MenuItem>
-      </MenuContainer>
-    );
+  const [open, setOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setOpen(!open);
   };
-  
-  export default Menu;
+
+  return (
+    <>
+      <MenuButton onClick={toggleMenu}>☰</MenuButton>
+      <MenuContainer open={open}>
+      <MenuItem href="#" onClick={toggleMenu}>
+      <LightButton  />
+        </MenuItem>
+       
+        <MenuItem href="#about-section" onClick={toggleMenu}>
+          Sobre
+        </MenuItem>
+        <MenuItem href="#pets-section" onClick={toggleMenu}>
+          Nossos Pets
+        </MenuItem>
+        <MenuItem href="#help-section" onClick={toggleMenu}>
+          Quero Ajudar
+        </MenuItem>
+        <MenuItem href="#contact-section" onClick={toggleMenu}>
+          Contato
+        </MenuItem>
+      </MenuContainer>
+    </>
+  );
+};
+
+export default Menu;
