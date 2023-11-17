@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { MenuButton, MenuContainer, MenuItem } from "./styles";
-
+import {
+  IconMenuDeep
+} from "@tabler/icons-react";
 const Menu = () => {
   const [open, setOpen] = useState(false);
 
@@ -10,7 +12,7 @@ const Menu = () => {
 
   return (
     <>
-      <MenuButton onClick={toggleMenu}>☰</MenuButton>
+      <MenuButton onClick={toggleMenu}><IconMenuDeep  size={30}/></MenuButton>
       <MenuContainer open={open}>
         <MenuItem href="#about-section" onClick={toggleMenu}>
           Sobre
