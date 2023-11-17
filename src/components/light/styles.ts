@@ -7,8 +7,8 @@ export const LightContainer = styled.button`
   border: none;
   background-color: transparent;
   border-radius: 50%;
-  width: 40px; /* Defina o tamanho desejado */
-  height: 40px; /* Defina o tamanho desejado */
+  width: 40px; 
+  height: 40px; 
 
   &:hover .svg {
     fill: #f4af03;
@@ -27,6 +27,7 @@ export const Svg = styled.svg`
   transform: translate(-50%, -50%);
   transition: all 0.3s;
   height: 2em;
+  fill: #fff;
 `;
 
 export const Svg2 = styled(Svg)`

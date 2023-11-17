@@ -13,10 +13,7 @@ const Menu = () => {
     <>
       <MenuButton onClick={toggleMenu}>☰</MenuButton>
       <MenuContainer open={open}>
-      <MenuItem href="#" onClick={toggleMenu}>
       <LightButton  />
-        </MenuItem>
-       
         <MenuItem href="#about-section" onClick={toggleMenu}>
           Sobre
         </MenuItem>
