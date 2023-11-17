@@ -48,7 +48,8 @@ export const MenuItem = styled.a`
 
 export const MenuButton = styled.div`
   display: none;
-
+  background: #f6f6f6;
+  color: #1c1b19;
   @media (max-width: 768px) {
     display: block;
     position: fixed;
