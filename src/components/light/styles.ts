@@ -9,7 +9,7 @@ export const LightContainer = styled.button`
   border-radius: 50%;
   width: 40px; 
   height: 40px; 
-
+  
   &:hover .svg {
     fill: #f4af03;
   }
@@ -27,7 +27,7 @@ export const Svg = styled.svg`
   transform: translate(-50%, -50%);
   transition: all 0.3s;
   height: 2em;
-  fill: #fff;
+  fill: #f4af03;  
 `;
 
 export const Svg2 = styled(Svg)`

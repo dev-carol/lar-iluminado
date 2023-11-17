@@ -23,6 +23,7 @@ const StyledButton = styled.button<ButtonProps>`
     }
   }};
   padding: 10px 20px;
+  font-size: 14px;
   border: none;
   border-radius: 20px;
   cursor: pointer;

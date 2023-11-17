@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { theme } from '../../styles/theme';
 
 export const MenuContainer = styled.nav<{ open: boolean }>`
   display: flex;
@@ -34,7 +35,7 @@ export const MenuItem = styled.a`
   margin: 0 1em;
   position: relative;
   cursor: pointer;
-
+  font-family: ${theme.fonts.crimsonText};
   &:hover {
     border-bottom: 2px solid #ad8e00;
     padding-bottom: 3px;

@@ -20,7 +20,7 @@
 }
 
 .text-about {
-  text-align: justify;
+
   line-height: 30px;
 }
 
@@ -48,7 +48,6 @@
   }
 
   .text-about {
-    text-align: justify;
     line-height: 20px;
     font-size: 14px;
   }
@@ -78,7 +77,6 @@
   }
 
   .text-about {
-    text-align: justify;
     line-height: 20px;
     font-size: 14px;
   }
@@ -109,7 +107,6 @@
   }
 
   .text-about {
-    text-align: justify;
     line-height: 20px;
     font-size: 16px;
   }
@@ -135,7 +132,6 @@
   }
 
   .text-about {
-    text-align: justify;
     line-height: 24px;
     font-size: 16px;
   }
@@ -162,7 +158,6 @@
   }
 
   .text-about {
-    text-align: justify;
     line-height: 24px;
     font-size: 18px;
     padding-right: 20px;
@@ -190,7 +185,6 @@
   }
 
   .text-about {
-    text-align: justify;
     line-height: 26px;
     font-size: 18px;
     padding-right: 0px;
@@ -218,7 +212,6 @@
   }
 
   .text-about {
-    text-align: justify;
     line-height: 26px;
     font-size: 18px;
     padding-right: 0px;
@@ -246,7 +239,6 @@
   }
 
   .text-about {
-    text-align: justify;
     line-height: 26px;
     font-size: 24px;
     padding-right: 20px;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "../../styles/theme";
 
 export const Container = styled.div`
   display: flex;
@@ -55,6 +56,7 @@ export const Form = styled.form`
 export const FormTitle = styled.h2`
   color: #ad8e00;
   margin-bottom: 20px;
+  font-family: ${theme.fonts.crimsonText};
 `;
 
 export const FormGroup = styled.div`
@@ -66,6 +68,7 @@ export const Label = styled.label`
   margin-bottom: 5px;
   font-weight: 600;
   color: #1c1b19;
+  font-family: ${theme.fonts.crimsonText};
 `;
 
 export const Input = styled.input`

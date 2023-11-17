@@ -23,16 +23,16 @@ const Home = () => {
             </Title>
             <LightButton />
           </div>
-          <p className="text-impact" style={{ color: theme.colors.grey }}>
-            NÃO SÓ AS PESSOAS PRECISAM DE UMA CASA
+          <p className="text-impact" style={{ color: theme.colors.grey, fontFamily: theme.fonts.crimsonText }}>
+            A necessidade de um lar não se limita apenas às pessoas.
           </p>
-          <p className="description-home" style={{ color: theme.colors.grey }}>
+          <p className="description-home" style={{ color: theme.colors.grey, fontFamily: theme.fonts.crimsonText  }}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
             eligendi ipsum quasi quos repellendus fuga, eaque totam et sunt
             delectus nobis, corrupti consequatur magni veritatis earum ea
             perspiciatis, enim a!
           </p>
-          <Link to="make-friend"  className="button-home">
+          <Link to="make-friend" className="button-home">
             <ButtonPrimary>Faça um amigo</ButtonPrimary>
           </Link>
         </section>

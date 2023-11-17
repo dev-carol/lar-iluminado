@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { theme } from '../../styles/theme';
 
 export const IconsContainer = styled.section`
   display: flex;
@@ -28,4 +29,5 @@ export const CheckboxWrapper = styled.div`
 export const CheckboxLabel = styled.span`
   margin-top: 0.5rem;
   text-align: center;
+  font-family: ${theme.fonts.crimsonText};
 `;

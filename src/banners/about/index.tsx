@@ -14,14 +14,14 @@ const About = () => {
           <Title fontWeight="normal" color={"greyLight"} className="title-about">
             Sobre o abrigo "Lar Iluminado"
           </Title>
-          <p className="text-about">
+          <p className="text-about" style={{ fontFamily: theme.fonts.crimsonText}}>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
             quo, dolore a nisi, debitis eaque aspernatur beatae hic
             reprehenderit repellendus pariatur tenetur deserunt temporibus dicta
             quas quaerat autem officia molestiae.
           </p>
 
-          <p className="text-about">
+          <p className="text-about" style={{ fontFamily: theme.fonts.crimsonText}}>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
             quo, dolore a nisi, debitis eaque aspernatur beatae hic
             reprehenderit repellendus pariatur tenetur deserunt temporibus dicta

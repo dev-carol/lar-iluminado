@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "../../styles/theme";
 
 export const CardContainer = styled.div`
   width: 100%;
@@ -10,15 +11,14 @@ export const CardContainer = styled.div`
   transition: 0.5s ease-out;
   overflow: visible;
   margin: 1rem;
-  border: 1px solid #C9AB81;
+  border: 1px solid #c9ab81;
   &:hover {
-    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.50);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.5);
   }
 
   @media (max-width: 768px) {
     max-width: 250px;
   }
-
 `;
 
 export const CardDetails = styled.div`
@@ -44,20 +44,21 @@ export const CardButton = styled.button`
   left: 50%;
   bottom: 0;
   opacity: 0;
+  font-family: ${theme.fonts.crimsonText};
   transition: 0.3s ease-out;
   ${CardContainer}:hover & {
     transform: translate(-50%, 50);
     opacity: 1;
   }
-
 `;
 
 export const ImgBody = styled.img`
   width: 100%;
-  height: auto
+  height: auto;
 `;
 
 export const TextTitle = styled.p`
   font-size: 1.5em;
   font-weight: bold;
+  font-family: ${theme.fonts.crimsonText};
 `;
