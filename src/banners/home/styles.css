@@ -43,7 +43,6 @@
 @media (min-width: 320px) and (max-width: 375px) {
   .banner-home {
     flex-direction: column;
-    height: 100%;
   }
   .container {
     flex-direction: column;
@@ -73,7 +72,6 @@
 @media (min-width: 376px) and (max-width: 480px) {
   .banner-home {
     flex-direction: column;
-    height: 100%;
   }
   .container {
     flex-direction: column;
@@ -103,7 +101,6 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .banner-home {
     flex-direction: column;
-    height: 100%;
   }
   .container {
     flex-direction: column;
