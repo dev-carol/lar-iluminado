@@ -32,7 +32,7 @@ const Home = () => {
             delectus nobis, corrupti consequatur magni veritatis earum ea
             perspiciatis, enim a!
           </p>
-          <Link to="make-friend" target="_blank" className="button-home">
+          <Link to="make-friend"  className="button-home">
             <ButtonPrimary>Faça um amigo</ButtonPrimary>
           </Link>
         </section>
