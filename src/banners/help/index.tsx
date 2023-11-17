@@ -54,7 +54,7 @@ const Help = () => {
           </IconsContainer>
         </section>
         <div className="container-btn-help">
-          <Link to="/donate-pet" target="_blank">
+          <Link to="/donate-pet">
             <ButtonPrimary>Quero doar um pet</ButtonPrimary>
           </Link>
         </div>
