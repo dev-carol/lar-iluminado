@@ -24,7 +24,7 @@ const Home = () => {
             <LightButton />
           </div>
           <p className="text-impact" style={{ color: theme.colors.grey, fontFamily: theme.fonts.crimsonText }}>
-            A necessidade de um lar não se limita apenas às pessoas.
+            A NECESSIDADE DE UM LAR NÃO SE LIMITA APENAS ÀS PESSOAS 
           </p>
           <p className="description-home" style={{ color: theme.colors.grey, fontFamily: theme.fonts.crimsonText  }}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
